@@ -1,5 +1,6 @@
-html, body {
-	margin: 0;
+body {
+	width: 50%;
+	margin: 0 auto;
 	color: #9B9B9B;
 }
 
@@ -17,13 +18,19 @@ h1.page-title, .textbox-splash, .textbox-button {
 }
 
 .carousel .carousel-product { 
-	width:50%
+	width:50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .carousel-product .product-sale {
 	color: white;
 	background-color: #036;
 	padding: 4px 14px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
 }
 
 .button-viewall {
@@ -33,6 +40,10 @@ h1.page-title, .textbox-splash, .textbox-button {
 }
 
 @media only screen and (min-width: 768px) {
+	body {
+		width: 100%;
+	}
+
 	.carousel .carousel-product { 
 		width:25%
 	}
