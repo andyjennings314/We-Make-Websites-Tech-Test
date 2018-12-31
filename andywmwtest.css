@@ -32,7 +32,12 @@ h1.page-title, .textbox-splash, .textbox-button {
 	padding: 4px 14px;
 	position: absolute;
 	top: 15px;
-	right: 15px;
+	right: 30px;
+	display:none;
+}
+
+.carousel-product img {
+	max-width: 100%;
 }
 
 .button-viewall {
@@ -48,5 +53,9 @@ h1.page-title, .textbox-splash, .textbox-button {
 
 	.carousel .carousel-product { 
 		width:25%
+	}
+	
+	.carousel-product .product-sale {
+		display: block;
 	}
 }
