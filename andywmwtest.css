@@ -1,5 +1,5 @@
 body {
-	width: 50%;
+	width: 90%;
 	margin: 0 auto;
 	color: #9B9B9B;
 	font-family: Helvetica Neue, Helvetica, Liberation Sans, Arial, sans-serif;
@@ -40,6 +40,10 @@ h1.page-title, .textbox-splash, .textbox-button {
 	max-width: 100%;
 }
 
+.carousel-product h2 {
+	font-size: 14px;
+}
+
 .button-viewall {
 	color: white;
 	background-color: #036;
@@ -57,5 +61,9 @@ h1.page-title, .textbox-splash, .textbox-button {
 	
 	.carousel-product .product-sale {
 		display: block;
+	}
+	
+	.carousel-product h2 {
+		font-size: 21px;
 	}
 }
