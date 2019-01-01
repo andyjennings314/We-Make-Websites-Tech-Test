@@ -28,6 +28,7 @@ h1.page-title {
     padding: 0 15px;
     box-sizing: border-box;
     position: relative;
+	text-decoration: none;
 }
 
 .carousel-product .product-sale {
@@ -42,8 +43,23 @@ h1.page-title {
 
 }
 
-.carousel-product img {
+.carousel-product .product-image {
+	position: relative;
+}
+
+.product-image img {
 	max-width: 100%;
+}
+
+.product-image span {
+	color: #036;
+	background-color: white;	
+	position: absolute;
+	text-align: center;
+	left: 18px;
+	right: 18px;
+	bottom: 18px;
+	padding: 14px;
 }
 
 .carousel-product h2, .carousel-product .product-price {
