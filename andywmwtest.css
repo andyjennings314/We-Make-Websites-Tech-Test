@@ -14,6 +14,10 @@ h1.page-title, .textbox-splash, .textbox-button {
 	text-align: center;
 }
 
+h1.page-title {
+	font-size: 28px;
+}
+
 .carousel {
 	display: flex;
 	flex-wrap: wrap;
@@ -34,13 +38,15 @@ h1.page-title, .textbox-splash, .textbox-button {
 	top: 15px;
 	right: 30px;
 	display:none;
+    cursor: default;
+
 }
 
 .carousel-product img {
 	max-width: 100%;
 }
 
-.carousel-product h2 {
+.carousel-product h2, .carousel-product .product-price {
 	font-size: 14px;
 }
 
@@ -54,6 +60,15 @@ h1.page-title, .textbox-splash, .textbox-button {
 	body {
 		width: 100%;
 	}
+	
+	h1.page-title {
+		font-size: 48px;
+	}
+	
+	.textbox-splash {
+		width: 50%;
+		margin: 0 auto;
+	}
 
 	.carousel .carousel-product { 
 		width:25%
@@ -65,5 +80,9 @@ h1.page-title, .textbox-splash, .textbox-button {
 	
 	.carousel-product h2 {
 		font-size: 21px;
+	}
+	
+	.carousel-product .product-price {
+		font-size: 18px;
 	}
 }
