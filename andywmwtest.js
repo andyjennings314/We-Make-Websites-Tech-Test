@@ -12,6 +12,10 @@
 						 {title: "Kendra Straight Leg in Deep Super Soft", price: 128, onSale: false, image: "test3.jpg"},
 						 {title: "Alissa Super Skinny in Dark Supersoft", price: 98, onSale: true, image: "test4.jpg"},
 						 ];
+		
+		self.addToCart = function(product){
+			alert(product.title + "added to your cart");
+		}
 
     }
 
